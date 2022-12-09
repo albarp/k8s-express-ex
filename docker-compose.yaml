@@ -11,3 +11,7 @@ services:
     working_dir: /app
     volumes:
       - .:/app
+    environment:
+      - APP_NAME=k8s-express-ex
+      - USERNAME=alberto
+      - PASSWORD=albertoPwd
