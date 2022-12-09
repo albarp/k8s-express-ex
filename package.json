@@ -1,0 +1,26 @@
+{
+  "name": "k8s-express-ex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --inspect=0.0.0.0:9229 index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albarp/k8s-express-ex.git"
+  },
+  "author": "Alberto Arpini <alberto.arpini@freedamedia.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/albarp/k8s-express-ex/issues"
+  },
+  "homepage": "https://github.com/albarp/k8s-express-ex#readme",
+  "dependencies": {
+    "express": "~4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "~2.0.20"
+  }
+}
